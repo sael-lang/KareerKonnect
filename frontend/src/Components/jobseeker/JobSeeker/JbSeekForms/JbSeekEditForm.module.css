@@ -1,0 +1,131 @@
+.add_btn {
+    text-align: right;
+}
+.row {
+    padding-top: 20px;
+
+}
+.container {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    height: 120vh;
+    width: 100%;
+    position: relative;
+    background:linear-gradient(
+        #3d3b3bb3, 
+        rgba(0, 0, 0, 0.7) ),url(https://all.accor.com/magazine/imagerie/video-big_timelapse-rio20160804T144630280Z.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    color: #576366;
+}
+
+.left_view h3 {
+    font-size: 21px;
+}
+
+.left_view p {
+    font-Weight: 600;
+}
+.navup {
+    background-image:linear-gradient(
+        rgba(49, 49, 49, 0.7), 
+        rgba(8, 11, 11, 0.7) ), url("../../../../Resources/img/header1.jpg");
+    background-size: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding-top:80px;
+    
+    }
+.left_view span {
+    font-Weight: 400;
+}
+
+.right_view p {
+    font-Weight: 600;
+}
+
+.right_view span {
+    font-Weight: 400;
+}
+
+.right_view p {
+    font-weight: 600;
+}
+
+.right_view span {
+    font-weight: 400;
+}
+.add_home{
+    color: #f6f4e6;
+    margin-top: 3%;
+    padding-left: 12%;  
+    padding-bottom:10px;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: flex;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.header_NavMen{
+    color: #f6f4e6;
+      margin-top: 3%;
+      padding-left: 12%;  
+      padding-bottom:10px;
+      text-decoration: none;
+      font-size: 1.2em;
+      text-transform: uppercase;
+      font-weight: 500;
+      display: flex;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.2s ease-in-out;
+    }
+.btn {
+    right: 60px;
+    color: black;
+    background: hwb(0 50% 50% / 0.222);
+    border: 2px solid wheat;
+    font: bolder;
+    width: 180px;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+    margin-bottom: 80px;
+}
+.tag{
+    color:#fff;
+}
+.form-label{
+        color: #fff;
+        cursor: text;
+        font-size: 16px;
+        padding-right: 50px;
+}
+.formcontrol{
+    width: 100%;
+        padding: 10px;
+        outline: 0;
+        border: 1px solid #fff;
+        color: #fff;
+        background: transparent;
+        padding-right: 600px;
+}
+.submittag {
+    cursor: pointer;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    margin-left: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}

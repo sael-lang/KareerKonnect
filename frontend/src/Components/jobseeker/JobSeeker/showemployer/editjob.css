@@ -1,0 +1,30 @@
+.mainbox{
+    width: 60vw;
+    height: 125vh;
+    background-color: black;
+    margin-left: 15vw;
+    margin-top: 12vh;
+    border-radius: 10px;
+}
+.mainboxtext{
+    color: white;
+    font-size: 40px;
+    margin-left: 20vw;
+}
+.inputvalue{
+    width: 30vw;
+    margin-left: 15vw;
+    border-radius: 10px;
+}
+.editbutton{
+    width: 30vw;
+    margin-left: 15vw;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 6vh;
+    color: grey;
+
+}
+.editbutton:hover{
+    color: red;
+}

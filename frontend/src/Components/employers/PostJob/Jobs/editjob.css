@@ -1,0 +1,109 @@
+.mainbox{
+    width: 60vw;
+    height: 130vh;
+    background-color: black;
+    margin-left: 15vw;
+    margin-top: -0vh;
+    border-radius: 10px;
+}
+.mainboxs{
+    width: 60vw;
+    height: 100vh;
+
+    margin-left: 15vw;
+    margin-top: -0vh;
+    border-radius: 10px;
+}
+.notbodybodys{
+    position: absolute;
+    width: 100vw;
+    height: 160vh;
+    background-image: url('./image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 26vw;
+}
+
+.columns1{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    margin-left: 3vw;
+    gap: 3vh;
+    margin-bottom: 10vh;
+}
+.columns2{
+    margin-top: 10vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.mainboxtext{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-left: 20vw;
+    font-weight: 900;
+}
+.mainboxtexts{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-left: 20vw;
+    font-weight: 600;
+}
+.flexing{
+    display: flex;
+}
+
+.subtext{
+    color: rgb(255, 255, 255);
+    height: 3.5vh;
+}
+.subtexts{
+    color: rgb(0, 0, 0);
+    height: 5vh;
+    font-weight: 900;
+}
+
+
+.inputvalue{
+    width: 30vw;
+    height: 5vh;
+    border-radius: 10px;
+    margin-left: -5vw;
+    font-weight: 900;
+    border: 2px solid grey !important;
+
+}
+.editbutton{
+    width: 30vw;
+    margin-right: 34vw;
+    border-radius: 10px;
+    height: 6vh;
+    background-color: white;
+    color: rgb(153, 48, 48);
+    border: 1px solid grey !important;
+}
+.editbuttons{
+    width: 30vw;
+    margin-right: 34vw;
+    border-radius: 10px;
+    height: 6vh;
+    background-color: white;
+    color: rgb(153, 48, 48);
+    border: 1px solid grey !important;
+}
+.row{
+    margin-top: -2vh;
+    display: flex;
+    flex-direction: row;
+}
+.editbutton:hover{
+    color: red;
+}
+.editbuttons:hover{
+    color: red;
+}
+

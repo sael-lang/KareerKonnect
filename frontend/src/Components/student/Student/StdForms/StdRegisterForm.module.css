@@ -1,0 +1,101 @@
+.navup {
+    background-image: linear-gradient(rgba(49, 49, 49, 0.7),
+            rgba(8, 11, 11, 0.7)), url("../../../../Resources/img/header1.jpg");
+    background-size: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+}
+
+.header_NavMen {
+    color: #f6f4e6;
+    margin-top: 3%;
+    padding-left: 12%;
+    padding-bottom: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: flex;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.submittag {
+    cursor: pointer;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    margin-left: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.row {
+    padding-top: 20px;
+
+}
+
+.container12 {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(#3d3b3bb3,
+            rgba(0, 0, 0, 0.7)), url(https://jobhunt.madrasthemes.com/wp-content/uploads/2018/08/parallax1.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-items: right;
+    justify-content: right;
+    margin-right: auto;
+    margin-left: auto;
+    color: #576366;
+}
+
+.btn {
+    right: 60px;
+    color: black;
+    background: hwb(0 50% 50% / 0.222);
+    border: 2px solid wheat;
+    font: bolder;
+    width: 180px;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.formtext {
+    color: #fff;
+}
+
+.label1 {
+    color: #fff;
+    cursor: text;
+    font-size: 16px;
+    
+
+}
+
+.tag {
+    color: white;
+    
+}
+
+.formcontrol,
+textarea {
+    margin-right: 5px;
+    width: 100%;
+    padding: 15px;
+    outline: 10;
+    border: 3px solid #fff;
+    color: #fff;
+    background: transparent;
+    padding-right: 600px;
+}

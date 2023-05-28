@@ -1,0 +1,138 @@
+.navbar1 {
+  background: rgba(0, 0, 0, 0.65)
+  url("https://jobhunt.madrasthemes.com/wp-content/uploads/2018/09/home-bg.jpg");
+  background-blend-mode: darken;
+  height: 800px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  padding-bottom: 60%;
+}
+.Navbutton {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 45px;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  border: none;
+  color: white;
+  background-color: #48cae4;
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  transition: 0.3s ease-in-out;
+}
+.Navbutton:hover {
+  background-color: #023e8a;
+}
+.Mainlogo {
+  width: 18%;
+  height: 5px;
+  margin-top: 0px;
+}
+/*.Mainlogocolor {
+  background-color: brown;
+}
+*/
+.nav_links {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  width: 75%;
+}
+.home,
+.skills,
+.about,
+.contact {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 780px) {
+  .Mainlogo {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 35px;
+  }
+  .nav_links {
+    display: none;
+  }
+  .nav_links_mobile {
+    position: absolute;
+    display: block;
+    list-style: none;
+    background-color: #005569;
+    left: 0;
+    top: 20%;
+    transition: all 0.5s ease-out;
+    width: 100%;
+  }
+  .home,
+  .skills,
+  .about,
+  .contact {
+    color: white;
+    text-align: center;
+    padding: 32px;
+    width: 100%;
+    transition: all 0.5s ease;
+  }
+  .contact {
+    border: none;
+  }
+  .mobile-menu-icon {
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    background-color: #00828c;
+    border: none;
+    outline: none;
+    top: 15px;
+    right: 25px;
+  }
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  color: white;
+  min-width: 200px;
+
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #023e8a;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #023e8a;
+}

@@ -1,0 +1,136 @@
+.body{
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+width:100%;
+}
+.candidate_Rcard_container {
+  width: 350px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px -5px;
+  transition: 0.3s;
+  animation: ease-in;
+  margin: 45px 45px 45px 45px;
+}
+.candidate_Rcard_container:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px 0px;
+}
+.candidate_Rimg_container img {
+  justify-content: center;
+  overflow: hidden;
+  height: 200px;
+}
+.candidate_Rcard_content {
+  margin: 1rem;
+  margin-top: 0.5rem;
+}
+
+.candidate_Rcard_title {
+  margin-bottom: 0.5rem;
+}
+.candidate_Rbtn {
+  display: flex;
+  justify-content: center;
+}
+.buttonss{
+  color: #0f0c29;
+  font-weight: 900;
+}
+.candidate_Rbtn button {
+  height: 30px;
+  padding: 0.01rem;
+  margin-bottom: 20px;
+  width:70px;
+  background-color: white;
+  border: none;
+  transition: 0.2s;
+  margin-bottom: 0.5rem;
+  border-radius: 3px;
+  font-size:15px ;
+}
+.candidate_Rbtn button:hover {
+  background: rgba(27, 156, 252, 0.1);
+  transform: scale(1.1);
+}
+.candidate_Ra {
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+  font-size: medium;
+}
+.candidate_Rtext {
+  color: #ffff;
+}
+.candidate_Rcard_display {
+margin-top: -5.6vh;
+  overflow: scroll;
+ 
+}
+
+.inputs{
+  margin-left: 15vw;
+  width: 50vw;
+}
+.wrapper {
+  display: flex;
+  background-color: #7878b8;
+  border-radius: 5px;
+}
+.candidate_card_container {
+  width: 350px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px -5px;
+  transition: 0.3s;
+  animation: ease-in;
+  margin: 45px 45px 45px 45px;
+  background-color: white;
+  border-radius: 5px;
+}
+.candidate_card_container:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px 0px;
+}
+.candidate_img_container img {
+  justify-content: center;
+  overflow: hidden;
+  height: 200px;
+}
+.candidate_card_content {
+  margin: 1rem;
+  margin-top: 0.5rem;
+}
+
+.candidate_card_title {
+  margin-bottom: 0.5rem;
+}
+.candidate_btn {
+  display: flex;
+  justify-content: center;
+}
+.candidate_btn button {
+  height: 30px;
+  padding: 0.01rem;
+  padding-bottom: 0.01rem;
+  background-color: rgb(38, 51, 80);
+  border: none;
+  transition: 0.2s;
+  margin-bottom: 0.5rem;
+  border-radius: 3px;
+}
+.candidate_btn button:hover {
+  background: rgba(27, 156, 252, 0.1);
+  transform: scale(1.1);
+}
+.candidate_a {
+  text-transform: uppercase;
+  color: #189cfc;
+  text-decoration: none;
+  font-size: medium;
+}
+.candidate_text {
+  color: black;
+}
+.candidate_card_display {
+  overflow: hidden;
+}

@@ -1,0 +1,69 @@
+.two{
+    width: 60vw;
+    height: 100vh;
+    background-color: black;
+    margin-left: 15vw;
+    margin-top: -0vh;
+    border-radius: 10px;
+}
+
+.one{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.five{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    margin-left: 3vw;
+    gap: 3vh;
+    margin-bottom: 10vh;
+}
+.seven{
+    margin-top: 10vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.three{
+    color: white;
+    font-size: 30px;
+    margin-left: 20vw;
+}
+
+.six{
+    color: rgb(255, 255, 255);
+    height: 3.5vh;
+}
+
+
+.eight{
+    width: 30vw;
+    height: 3.5vh;
+    border-radius: 10px;
+    margin-left: -5vw;
+}
+.nine{
+    width: 30vw;
+    margin-left: 15vw;
+    border-radius: 10px;
+    height: 6vh;
+    color: grey;
+}
+
+.four{
+    margin-top: -2vh;
+    display: flex;
+    flex-direction: row;
+}
+.nine:hover{
+    color: red;
+}
+

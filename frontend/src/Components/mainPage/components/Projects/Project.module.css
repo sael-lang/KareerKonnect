@@ -1,0 +1,137 @@
+element.style {
+  background-image: url("https://jobhunt.madrasthemes.com/wp-content/uploads/2018/08/sn2.jpg");
+}
+.v1.jh_site_stats_section {
+  background-color: #fb236a;
+}
+
+.jh_site_stats_section {
+  background-image: url("https://jobhunt.madrasthemes.com/wp-content/uploads/2018/08/sn2.jpg");
+  width: 100vw;
+  position: relative;
+  margin-left: calc(-50vw + 50% - 8px);
+  padding: 40px 0 70px;
+  height: 400px;
+}
+.jh_section {
+  margin-bottom: 70px;
+}
+section {
+  display: block;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+div {
+  display: block;
+}
+body {
+  font-family: varela round, montserrat, quicksand, sans-serif;
+  font-size: 14px;
+  line-height: 1.75;
+  color: #576366;
+  word-wrap: break-word;
+  -webkit-font-smoothing: antialiased;
+}
+.jh_site_stats_section.v1 .jh_site_stats_inner {
+  position: relative;
+  z-index: 2;
+}
+.section_header {
+  text-align: center;
+}
+.jh_site_stats_section.v1 .section_title,
+.jh_site_stats_section.v1 .section_sub_title {
+  color: black;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.section_header .section_title {
+  font-size: 30px;
+  margin: 0.2em 0;
+  line-height: 1.5;
+}
+h3 {
+  padding: 30px;
+  display: block;
+  font-family: quicksand, sans-serif;
+  font-weight: 600;
+  text-rendering: optimizeLegibility;
+  overflow-wrap: break-word;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.jh_site_stats_section.v1 .section_sub_title {
+  font-size: 20px;
+  color: black;
+}
+.section_header .section_sub_title {
+  font-size: 16px;
+}
+.jh_site_stats_section .site_stats_list {
+  list-style: none;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  display: flex;
+}
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+ul {
+  overflow-wrap: break-word;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 3em;
+  margin-block-end: 3em;
+  margin-inline-start: 60px;
+  margin-inline-end: 60px;
+  padding-inline-start: 40px;
+}
+.jh_site_stats_section .site_stats {
+  line-height: 3;
+}
+.li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.jh_site_stats_section.v1
+  .site-stats
+  .jh_site_stats_section.v1
+  .site-stats
+  .stats-title {
+  color: black;
+  font-weight: bolder;
+  line-height: 1;
+}
+h4 {
+  font-family: quicksand, sans-serif;
+  font-weight: 600;
+  text-rendering: optimizeLegibility;
+  overflow-wrap: break-word;
+}
+.stats_count {
+  font-size: 40px;
+  line-height: 1;
+  font-weight: 700;
+  color: #fff;
+}
+.stats_title {
+  color: #fff;
+  font-weight: 700;
+  line-height: 1;
+  font-size: 14px;
+}
